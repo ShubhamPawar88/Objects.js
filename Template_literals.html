@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //normally, string is represented in either single quote '' or double quote ""
+       //template literal is another way is another way to represent string  JS but the advantage is we can write an expression in that template string using ${} and that expressions can be evaluate at run time 
+       //template literals are basically enclosed in backtick symbol ``
+       let a=9,b=3;
+        let name="jay";
+        document.write(`hello ${name}`);
+        document.write(`<br>add= ${a+b}`);
+        document.write("<br>");
+
+        function greetings(name ,msg)
+        {
+            return `${name} ${msg}`;
+        }
+        document.write(greetings("geeta","how are you"));
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //difference between for in and for of loop
+
+        //for in loop is used to iterate over string properties of an OBJECT
+        //for of loop is used to iterate over ARRAYS,SET,MAP
+        let book={bid:112,bname:"yayati",a_name:"anand"};
+
+        for(  const    b   in  book)
+         {
+             document.write(`${b} : ${book[b]}, `);
+         }
+    </script>
+</body>
+</html>

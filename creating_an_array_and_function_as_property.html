@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //in object as a property value we can store array and function
+        let person={
+            name:"jack",
+            address:["pune","mumbai","satara"],
+            age:function(a,b)
+            {
+                let person_age=a+b;
+                return person_age;
+            }
+        }
+       
+        document.write("<br> name="+person.name);
+        document.write("<br> address="+person.address);
+        document.write("<br> age="+ person.age(20, 4));
+       
+
+    </script>
+</body>
+</html>

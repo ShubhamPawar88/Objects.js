@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let customer={//outer object
+                 c_name:"jenny",
+                 age:24,
+                 bankDetails:{//nested object
+                         bank_name:"sbi",
+                         ifsc_code:52646467889,
+                         branch:"SN"
+
+                 }
+
+                 
+        }
+        document.write(JSON.stringify(customer));
+        document.write(JSON.stringify(customer.bankDetails));
+        //accesing single property of customer
+        document.write("<br>"+customer.c_name);
+        //accesing single peoperty of bankdetails
+        document.write("<br>"+customer.bankDetails.ifsc_code);
+
+
+
+    </script>
+</body>
+</html>
